@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAttachSyllabus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Syllabus Link"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/btnShowExperiments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practical Experiments"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnAttachSyllabus"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Output will be displayed here"
+        android:layout_below="@+id/btnShowExperiments"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
